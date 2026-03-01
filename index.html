@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="is-loading">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>2022 ADCC Awards</title>
+        <meta name="description" content="Celebrating the best in Canadian design and advertising">
+        <link rel="preload" href="./fonts/MonumentGrotesk-Medium.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="./fonts/ABCCameraVariable-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="icon" href="./favicon.ico">
+        <link rel="manifest" href="./site.webmanifest">
+        <meta name="theme-color" content="#ffffff">
+        <script>
+            window.timestamp = new Date();
+        </script>
+        <style>
+            html.is-loading {
+                background-color: #271E1B;
+            }
+        </style>
+        <link href="./css/app.bb41352c.css" rel="stylesheet">
+    </head>
+    <body>
+        <noscript>
+            <strong>We're sorry but this site doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+        </noscript>
+        <div id="app"></div>
+        <script src="./js/chunk-vendors.d549c37c.js"></script>
+        <script src="./js/app.7577fc51.js"></script>
+    </body>
+</html>
+```
+
+5. Clique **"Commit new file"**
+
+## Étape 7 — Activer GitHub Pages
+
+1. Va dans **"Settings"** de ton repository (onglet en haut)
+2. Dans le menu de gauche, clique sur **"Pages"**
+3. Sous "Source", choisis **"Deploy from a branch"**
+4. Sous "Branch", sélectionne **"main"** et laisse `/root`
+5. Clique **"Save"**
+
+## Étape 8 — Attendre et visiter le site
+
+GitHub va prendre 1-2 minutes pour générer ton site.
+
+Ton site sera accessible sur :
+```
+https://tonusername.github.io/nom-de-ton-repo/
+```
+
+Remplace `tonusername` par ton nom d'utilisateur GitHub et `nom-de-ton-repo` par le nom que tu as donné.
+
+## Récapitulatif de la structure finale
+```
+ton-repo/
+├── index.html
+├── favicon.ico
+├── site.webmanifest
+├── css/
+│   └── app.bb41352c.css
+├── js/
+│   ├── app.7577fc51.js
+│   └── chunk-vendors.d549c37c.js
+└── fonts/
+    ├── MonumentGrotesk-Medium.woff2
+    └── ABCCameraVariable-Regular.woff2
